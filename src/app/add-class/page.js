@@ -1,7 +1,7 @@
 import Class from "@/components/class/Class";
 import TaskProgress from "@/components/aside/TaskProgress";
 import Layout from "@/components/Layout";
-import TaskModal from "@/components/TaskModal"; // Import the new TaskModal component
+import AddClass from "@/components/AddClass";
 
 export default function Home() {
   return (
@@ -17,7 +17,7 @@ export default function Home() {
           onTime={88}
           late={18}
         />
-        <TaskModal />
+        <AddClass />
       </div>
     </Layout>
   );
